@@ -128,16 +128,3 @@ You can test all of these manually at `http://localhost:8000/docs`
 Sources are only shown when the LLM actually finds a relevant answer. If someone asks a question that has no answer in the documents, no document content is returned preventing accidental data exposure.
 
 ---
-
-## .gitignore
-
-Make sure your `.gitignore` includes the following so you don't accidentally push sensitive files:
-
-```
-vectordb/
-temp_uploads/
-*.pdf
-__pycache__/
-*.pyc
-.env
-```
