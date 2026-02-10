@@ -36,7 +36,7 @@ ollama pull gemma3:1b
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Jayakrishna143/Company-Policy-RAG-Assistant.git
 cd your-repo-name
 pip install -r requirements.txt
 ```
